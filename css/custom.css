@@ -1,3 +1,7 @@
-button#next{
+button #next{
     background-color: #000000;
+}
+
+#next {
+    background-color: red;
 }
