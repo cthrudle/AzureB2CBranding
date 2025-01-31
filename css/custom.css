@@ -30,3 +30,22 @@ input {
         border-radius: 0 !important;
         padding: 0.375rem 0rem !important;
     }
+
+#createAccount {
+    visibility: hidden;
+    font-size: 0;
+    /* collapse extra space */
+}
+
+    #createAccount::before {
+        content: "Register";
+        visibility: visible;
+        font-size: 16px;
+        /* reset font size */
+        font-weight: bold;
+        background-color: white !important;
+        border: 2px solid black !important;
+        border-radius: 1000px !important;
+        color: black !important;
+        width: 100% !important;
+    }
