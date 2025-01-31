@@ -31,21 +31,29 @@ input {
         padding: 0.375rem 0rem !important;
     }
 
-#createAccount {
-    visibility: hidden;
-    font-size: 0;
-    /* collapse extra space */
+
+.heading{
+    display: none;
 }
+
+label{
+    display: none;
+}
+/*#createAccount {
+    visibility: hidden;
+    font-size: 0;*/
+    /* collapse extra space */
+/*}
 
     #createAccount::before {
         content: "Register";
         visibility: visible;
-        font-size: 16px;
+        font-size: 16px;*/
         /* reset font size */
-        font-weight: bold;
+        /*font-weight: bold;
         background-color: white !important;
         border: 2px solid black !important;
         border-radius: 1000px !important;
         color: black !important;
         width: 100% !important;
-    }
+    }*/
