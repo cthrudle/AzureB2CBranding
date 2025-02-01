@@ -85,6 +85,10 @@ div .error .itemLevel .show{
     text-align: left;
     color: #b00;
 }
+
+input:focus, input:active, input:valid{
+    outline: none !important;
+}
 /*#createAccount {
     visibility: hidden;
     font-size: 0;*/
