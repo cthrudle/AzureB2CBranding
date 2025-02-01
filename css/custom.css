@@ -32,6 +32,10 @@ input {
         padding: 0.375rem 0rem !important;
     }
 
+    input:focus {
+        border-bottom: 2px solid var(--yellow) !important;
+    }
+
 
 .sendCode, .verifyCode, .sendNewCode, .changeClaims {
     background-color: black !important;
