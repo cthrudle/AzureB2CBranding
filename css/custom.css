@@ -80,6 +80,11 @@ button[aria-disabled=true] {
 label{
     display: none;
 }
+
+div .error .itemLevel .show{
+    text-align: left;
+    color: #b00;
+}
 /*#createAccount {
     visibility: hidden;
     font-size: 0;*/
