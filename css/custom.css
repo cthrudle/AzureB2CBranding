@@ -32,7 +32,7 @@ input {
     }
 
 
-button .sendCode .verifyCode .sendNewCode .changeClaims {
+.sendCode, .verifyCode, .sendNewCode, .changeClaims {
     background-color: black !important;
     border: 1px solid black !important;
     border-radius: 1000px !important;
@@ -40,7 +40,7 @@ button .sendCode .verifyCode .sendNewCode .changeClaims {
     width: 100% !important;
 }
 
-button .sendCode:hover .verifyCode:hover .sendNewCode:hover .changeClaims:hover {
+.sendCode:hover, .verifyCode:hover, .sendNewCode:hover, .changeClaims:hover {
     background-color: #5c5c5c !important;
     color: var(--yellow) !important;
     border: 1px solid #5c5c5c !important;
