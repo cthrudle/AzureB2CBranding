@@ -18,7 +18,7 @@
         border: 1px solid #5c5c5c !important;
     }
 
-button #continue {
+#continue{
     background-color: black !important;
     border: 1px solid black !important;
     border-radius: 1000px !important;
@@ -26,7 +26,7 @@ button #continue {
     width: 100% !important;
 }
 
-    button #continue:hover {
+    #continue:hover {
         background-color: #5c5c5c !important;
         color: var(--yellow) !important;
         border: 1px solid #5c5c5c !important;
