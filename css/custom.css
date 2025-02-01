@@ -18,6 +18,20 @@
         border: 1px solid #5c5c5c !important;
     }
 
+#continue {
+    background-color: black !important;
+    border: 1px solid black !important;
+    border-radius: 1000px !important;
+    color: var( --yellow) !important;
+    width: 100% !important;
+}
+
+    #continue:hover {
+        background-color: #5c5c5c !important;
+        color: var(--yellow) !important;
+        border: 1px solid #5c5c5c !important;
+    }
+
 input {
     border: none !important;
     border-bottom: 2px solid black !important;
