@@ -81,8 +81,38 @@ button[aria-disabled=true] {
     display: none;
 }
 
-label{
+label {
     display: none;
+}
+
+div#attributeList ul {
+    li.AuthenticationAppIconControl, li.QrCodeControl {
+        display: block;
+        text-align: center;
+        margin-top: 1em;
+    }
+
+    li.AuthenticatorAppIconControl div#authenticatorAppIconControl {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        a {
+            display: flex;
+            flex: 0 0 50%;
+            justify-content: center;
+            align-items: center;       
+
+            img {
+                float: none;
+                max-width: 100%;
+            }
+            
+            &.appStoreIconControlContent img {
+                width: 80%;
+            }
+        }
+    }
 }
 
 div.error.itemLevel.show {
