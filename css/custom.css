@@ -85,31 +85,41 @@ label {
     display: none;
 }
 
+.unified_container .row .panel-default .panel-body .companyLogo {
+    height: 50px;
+}
+
 div#attributeList ul {
-    li.AuthenticationAppIconControl, li.QrCodeControl {
-        display: block;
-        text-align: center;
-        margin-top: 1em;
-    }
+    li {
+        img {
+            height: auto;
+        }
 
-    li.AuthenticatorAppIconControl div#authenticatorAppIconControl {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
+        &.AuthenticatorAppIconControl label, &.QrCodeControl label {
+            display: block;
+            text-align: center;
+            margin-top: 1em;
+        }
 
-        a {
+        &.AuthenticatorAppIconControl div#authenticatorAppIconControl {
             display: flex;
-            flex: 0 0 50%;
             justify-content: center;
-            align-items: center;       
+            flex-wrap: wrap;
 
-            img {
-                float: none;
-                max-width: 100%;
-            }
-            
-            &.appStoreIconControlContent img {
-                width: 80%;
+            a {
+                display: flex;
+                flex: 0 0 50%;
+                justify-content: center;
+                align-items: center;       
+
+                img {
+                    float: none;
+                    max-width: 100%;
+                }
+                
+                &.appStoreIconControlContent img {
+                    width: 80%;
+                }
             }
         }
     }
